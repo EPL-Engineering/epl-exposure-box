@@ -503,7 +503,6 @@
 			<Item Name="Init AO Signals.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Init AO Signals.vi"/>
 			<Item Name="Input sources.ctl" Type="VI" URL="../../epl-vi-lib/Connection VIs/Type Defs/Input sources.ctl"/>
 			<Item Name="Insert Reserved Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Insert Reserved Error.vi"/>
-			<Item Name="interp1 (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1 (1D).vi"/>
 			<Item Name="interp1 (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1 (2D).vi"/>
 			<Item Name="Interp1 (poly).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Interp1 (poly).vi"/>
 			<Item Name="interp1.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1.vi"/>
