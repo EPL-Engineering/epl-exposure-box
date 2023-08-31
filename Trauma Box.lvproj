@@ -367,7 +367,6 @@
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
 			</Item>
-			<Item Name="Abort notifier.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/Abort notifier.vi"/>
 			<Item Name="AIDI-Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Typedefs/AIDI-Action.ctl"/>
 			<Item Name="AIDI-Clear Tasks.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Sub VIs/AIDI-Clear Tasks.vi"/>
 			<Item Name="AIDI-Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Typedefs/AIDI-Config.ctl"/>
@@ -437,6 +436,7 @@
 			<Item Name="Create Prism Color Map.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Create Prism Color Map.vi"/>
 			<Item Name="CumSum.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/CumSum.vi"/>
 			<Item Name="DAQ-Abort FGV.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/DAQ-Abort FGV.vi"/>
+			<Item Name="DAQ-Sync and Start.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/DAQ-Sync and Start.vi"/>
 			<Item Name="dB to Linear (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB to Linear (1D).vi"/>
 			<Item Name="dB to Linear (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB to Linear (2D).vi"/>
 			<Item Name="dB to Linear (scalar).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB to Linear (scalar).vi"/>
