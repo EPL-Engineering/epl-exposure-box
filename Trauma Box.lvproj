@@ -13,8 +13,6 @@
 		<Item Name="LV Source" Type="Folder" URL="../LV Source">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="AIDI-Configure AI.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Wrapper VIs/AIDI-Configure AI.vi"/>
-		<Item Name="AODO-Configure AO.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Wrapper VIs/AODO-Configure AO.vi"/>
 		<Item Name="Error List.ini" Type="Document" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Error List.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -373,6 +371,7 @@
 			<Item Name="AIDI-Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Typedefs/AIDI-Action.ctl"/>
 			<Item Name="AIDI-Clear Tasks.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Sub VIs/AIDI-Clear Tasks.vi"/>
 			<Item Name="AIDI-Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Typedefs/AIDI-Config.ctl"/>
+			<Item Name="AIDI-Configure AI.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Wrapper VIs/AIDI-Configure AI.vi"/>
 			<Item Name="AIDI-Create Channels (AI).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Sub VIs/AIDI-Create Channels (AI).vi"/>
 			<Item Name="AIDI-Create Tasks (AI).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Sub VIs/AIDI-Create Tasks (AI).vi"/>
 			<Item Name="AIDI-Create Tasks (DI).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Sub VIs/AIDI-Create Tasks (DI).vi"/>
@@ -392,6 +391,7 @@
 			<Item Name="AODO-Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-Action.ctl"/>
 			<Item Name="AODO-Clear Tasks.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Clear Tasks.vi"/>
 			<Item Name="AODO-Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-Config.ctl"/>
+			<Item Name="AODO-Configure AO.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Wrapper VIs/AODO-Configure AO.vi"/>
 			<Item Name="AODO-Create Channels (AO).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Create Channels (AO).vi"/>
 			<Item Name="AODO-Create Tasks (AO).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Create Tasks (AO).vi"/>
 			<Item Name="AODO-Create Tasks (DO).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Create Tasks (DO).vi"/>
@@ -581,7 +581,6 @@
 			<Item Name="SlackAPI-oauth.v2.access response.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Slack VIs/API VIs/SlackAPI-oauth.v2.access response.ctl"/>
 			<Item Name="SlackAPI-oauth.v2.access.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Slack VIs/API VIs/SlackAPI-oauth.v2.access.vi"/>
 			<Item Name="SlackAPI-users.info.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Slack VIs/API VIs/SlackAPI-users.info.vi"/>
-			<Item Name="Stimulus Channel.xctl" Type="XControl" URL="../../epl-vi-lib/Signal Synthesis VIs/Controls/Stimulus Channel XCtl/Stimulus Channel.xctl"/>
 			<Item Name="Suppress Error Code - Array.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Suppress Error Code - Array.vi"/>
 			<Item Name="Suppress Error Code - Scalar.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Suppress Error Code - Scalar.vi"/>
 			<Item Name="Suppress Error Code.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Suppress Error Code.vi"/>
