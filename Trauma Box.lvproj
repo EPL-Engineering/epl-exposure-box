@@ -32,9 +32,7 @@
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
-				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="DAQmx Advance Trigger (Digital Edge).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/trigger.llb/DAQmx Advance Trigger (Digital Edge).vi"/>
 				<Item Name="DAQmx Advance Trigger (None).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/trigger.llb/DAQmx Advance Trigger (None).vi"/>
@@ -98,6 +96,7 @@
 				<Item Name="DAQmx Create Channel (CO-Pulse Generation-Time).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CO-Pulse Generation-Time).vi"/>
 				<Item Name="DAQmx Create Channel (DI-Digital Input).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (DI-Digital Input).vi"/>
 				<Item Name="DAQmx Create Channel (DO-Digital Output).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (DO-Digital Output).vi"/>
+				<Item Name="DAQmx Create Channel (Power).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (Power).vi"/>
 				<Item Name="DAQmx Create Channel (TEDS-AI-Acceleration-Accelerometer).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (TEDS-AI-Acceleration-Accelerometer).vi"/>
 				<Item Name="DAQmx Create Channel (TEDS-AI-Bridge).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (TEDS-AI-Bridge).vi"/>
 				<Item Name="DAQmx Create Channel (TEDS-AI-Current-Basic).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (TEDS-AI-Current-Basic).vi"/>
@@ -169,6 +168,15 @@
 				<Item Name="DAQmx Read (Digital Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp Duration).vi"/>
 				<Item Name="DAQmx Read (Digital Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Digital Wfm 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL 1Chan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 1D Wfm NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power 2D I16 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power 2D I16 NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Power DBL 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power DBL 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Power Wfm 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Power Wfm 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I8).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I8).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I16).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I16).vi"/>
 				<Item Name="DAQmx Read (Raw 1D I32).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Raw 1D I32).vi"/>
@@ -274,7 +282,6 @@
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
@@ -307,7 +314,6 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
@@ -317,12 +323,6 @@
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
-				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
-				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
-				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
-				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
-				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
-				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -370,7 +370,7 @@
 			<Item Name="AIDI-Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Typedefs/AIDI-Action.ctl"/>
 			<Item Name="AIDI-Clear Tasks.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Sub VIs/AIDI-Clear Tasks.vi"/>
 			<Item Name="AIDI-Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Typedefs/AIDI-Config.ctl"/>
-			<Item Name="AIDI-Configure AI.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Wrapper VIs/AIDI-Configure AI.vi"/>
+			<Item Name="AIDI-Configure AI.vim" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Wrapper VIs/AIDI-Configure AI.vim"/>
 			<Item Name="AIDI-Create Channels (AI).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Sub VIs/AIDI-Create Channels (AI).vi"/>
 			<Item Name="AIDI-Create Tasks (AI).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Sub VIs/AIDI-Create Tasks (AI).vi"/>
 			<Item Name="AIDI-Create Tasks (DI).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Sub VIs/AIDI-Create Tasks (DI).vi"/>
@@ -390,7 +390,7 @@
 			<Item Name="AODO-Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-Action.ctl"/>
 			<Item Name="AODO-Clear Tasks.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Clear Tasks.vi"/>
 			<Item Name="AODO-Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-Config.ctl"/>
-			<Item Name="AODO-Configure AO.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Wrapper VIs/AODO-Configure AO.vi"/>
+			<Item Name="AODO-Configure AO.vim" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Wrapper VIs/AODO-Configure AO.vim"/>
 			<Item Name="AODO-Create Channels (AO).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Create Channels (AO).vi"/>
 			<Item Name="AODO-Create Tasks (AO).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Create Tasks (AO).vi"/>
 			<Item Name="AODO-Create Tasks (DO).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Create Tasks (DO).vi"/>
@@ -418,10 +418,7 @@
 			<Item Name="Build Line.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Build Line.vi"/>
 			<Item Name="CAL-Interp (Fs, Npts).vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Interp (Fs, Npts).vi"/>
 			<Item Name="CAL-Interp.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/Analysis VIs/CAL-Interp.vi"/>
-			<Item Name="CAL-Load data V1.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/File IO VIs/CAL-Load data V1.vi"/>
-			<Item Name="CAL-Load data.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/File IO VIs/CAL-Load data.vi"/>
 			<Item Name="CAL-Read Data.vi" Type="VI" URL="../../epl-cal-vi-lib/Common VIs/File IO VIs/CAL-Read Data.vi"/>
-			<Item Name="Cal-Smoothing Parameters.ctl" Type="VI" URL="../../epl-cal-vi-lib/In-Ear Calibration VIs/LV Source/Type Defs/Cal-Smoothing Parameters.ctl"/>
 			<Item Name="Center Window on Parent.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Center Window on Parent.vi"/>
 			<Item Name="CF,BW to Fmin,Fmax.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/CF,BW to Fmin,Fmax.vi"/>
 			<Item Name="CF,Oct to Fmin,Fmax.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/CF,Oct to Fmin,Fmax.vi"/>
@@ -462,7 +459,6 @@
 			<Item Name="File.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/File/File.lvclass"/>
 			<Item Name="FileIO-Circular Wav Read.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Circular Wav Read.vi"/>
 			<Item Name="FileIO-File or Folder Exists.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-File or Folder Exists.vi"/>
-			<Item Name="FileIO-Scan for String.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/FileIO-Scan for String.vi"/>
 			<Item Name="Filter Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Filter Error.vi"/>
 			<Item Name="Filter.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Filter/Filter.lvclass"/>
 			<Item Name="FM Sweep.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/FM Sweep/FM Sweep.lvclass"/>
@@ -471,7 +467,6 @@
 			<Item Name="Get Control Screen Position.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Windows VIs/Get Control Screen Position.vi"/>
 			<Item Name="Get Default Colors.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/KTable/Get Default Colors.vi"/>
 			<Item Name="Get Enum Strings From File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Get Enum Strings From File.vi"/>
-			<Item Name="Get Terminal Name with Device Prefix.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Get Terminal Name with Device Prefix.vi"/>
 			<Item Name="Get Type Info.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Get Type Info.vi"/>
 			<Item Name="Get Variant Attribute With Defaults.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Get Variant Attribute With Defaults.vi"/>
 			<Item Name="Graphic-Generate Color Map.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphic-Generate Color Map.vi"/>
@@ -488,13 +483,7 @@
 			<Item Name="Interp1 (poly).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Interp1 (poly).vi"/>
 			<Item Name="interp1.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1.vi"/>
 			<Item Name="InvFilt-Params.ctl" Type="VI" URL="../../epl-cal-vi-lib/Inverse Filter VIs/InvFilt-Params.ctl"/>
-			<Item Name="Irregular Array Subset (2D CDB).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (2D CDB).vi"/>
-			<Item Name="Irregular Array Subset (2D DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (2D DBL).vi"/>
 			<Item Name="Irregular Array Subset (DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (DBL).vi"/>
-			<Item Name="Irregular Array Subset (DBL, Index).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (DBL, Index).vi"/>
-			<Item Name="Irregular Array Subset (I32).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (I32).vi"/>
-			<Item Name="Irregular Array Subset.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset.vi"/>
-			<Item Name="Is 24-bit task.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/Is 24-bit task.vi"/>
 			<Item Name="isDir.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Comparison VIs/isDir.vi"/>
 			<Item Name="KBackground Gradient.xctl" Type="XControl" URL="../../epl-vi-lib/Utility VIs/Controls/KBackground Gradient/KBackground Gradient.xctl"/>
 			<Item Name="KCheckmarkBoolean 2.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Buttons/KCheckmarkBoolean 2.ctl"/>
@@ -549,10 +538,17 @@
 			<Item Name="Pulse Train.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/Pulse Train/Pulse Train.lvclass"/>
 			<Item Name="PXI Multipliers to AO Gains (1D).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Multipliers to AO Gains (1D).vi"/>
 			<Item Name="PXI Multipliers to AO Gains (scalar).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/AO Gain and Multiplier VIs/PXI Multipliers to AO Gains (scalar).vi"/>
+			<Item Name="PXI-Compute Skip Samples.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Compute Skip Samples.vi"/>
+			<Item Name="PXI-Connections File Path.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Connections File Path.vi"/>
 			<Item Name="PXI-Enumerate AI Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate AI Channels.vi"/>
 			<Item Name="PXI-Enumerate AO Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate AO Channels.vi"/>
 			<Item Name="PXI-Find 1st 16-bit Board.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Find 1st 16-bit Board.vi"/>
+			<Item Name="PXI-Get Delays.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Delays.vi"/>
+			<Item Name="PXI-Get Input Terminal Configuration.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Input Terminal Configuration.vi"/>
 			<Item Name="PXI-Get Slot Number.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Get Slot Number.vi"/>
+			<Item Name="PXI-Get Terminal Name with Device Prefix.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Terminal Name with Device Prefix.vi"/>
+			<Item Name="PXI-Is Any Task 16-bit.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Is Any Task 16-bit.vi"/>
+			<Item Name="PXI-Is Task 24-bit.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Is Task 24-bit.vi"/>
 			<Item Name="PXI-Set Trigger Output.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Set Trigger Output.vi"/>
 			<Item Name="PXI-Task to Device Properties.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Task to Device Properties.vi"/>
 			<Item Name="PXI-Zero 16-bit Outputs (by device).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Zero 16-bit Outputs (by device).vi"/>
