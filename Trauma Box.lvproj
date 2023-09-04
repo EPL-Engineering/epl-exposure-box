@@ -434,10 +434,6 @@
 			<Item Name="CumSum.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/CumSum.vi"/>
 			<Item Name="DAQ-Abort FGV.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/DAQ-Abort FGV.vi"/>
 			<Item Name="DAQ-Sync and Start.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/DAQ-Sync and Start.vi"/>
-			<Item Name="dB to Linear (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB to Linear (1D).vi"/>
-			<Item Name="dB to Linear (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB to Linear (2D).vi"/>
-			<Item Name="dB to Linear (scalar).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB to Linear (scalar).vi"/>
-			<Item Name="dB to Linear.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB to Linear.vi"/>
 			<Item Name="dB, degrees to Z.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB, degrees to Z.vi"/>
 			<Item Name="Default Config File Path.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/Default Config File Path.vi"/>
 			<Item Name="DI-Output Spec.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Typedefs/DI-Output Spec.ctl"/>
@@ -503,10 +499,6 @@
 			<Item Name="LaserCal-System ID.ctl" Type="VI" URL="../../epl-cal-vi-lib/Laser Calibration VIs/LV Source/Typedefs/LaserCal-System ID.ctl"/>
 			<Item Name="LaserCal-V to mW.vi" Type="VI" URL="../../epl-cal-vi-lib/Laser Calibration VIs/LV Source/SubVIs/LaserCal-V to mW.vi"/>
 			<Item Name="Level.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Level/Level.lvclass"/>
-			<Item Name="Linear to dB (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Linear to dB (2D).vi"/>
-			<Item Name="Linear to dB (array).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Linear to dB (array).vi"/>
-			<Item Name="Linear to dB (scalar).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Linear to dB (scalar).vi"/>
-			<Item Name="Linear to dB.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Linear to dB.vi"/>
 			<Item Name="LinSpace (start-stop-step).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/LinSpace (start-stop-step).vi"/>
 			<Item Name="LinSpace (x0-dx-npts).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/LinSpace (x0-dx-npts).vi"/>
 			<Item Name="LinSpace.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/LinSpace.vi"/>
@@ -517,8 +509,11 @@
 			<Item Name="Math-Arbitrary Distribution.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Arbitrary Distribution.vi"/>
 			<Item Name="Math-Bernoulli Trial.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Bernoulli Trial.vi"/>
 			<Item Name="Math-Column Mean.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Column Mean.vi"/>
+			<Item Name="Math-dB To Linear.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-dB To Linear.vim"/>
 			<Item Name="Math-Discrete Truncated Exponential RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Discrete Truncated Exponential RNG.vi"/>
 			<Item Name="Math-Discrete Truncated Gaussian RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Discrete Truncated Gaussian RNG.vi"/>
+			<Item Name="Math-FFTinv dB,degrees to x(t).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-FFTinv dB,degrees to x(t).vi"/>
+			<Item Name="Math-Linear to dB.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Linear to dB.vim"/>
 			<Item Name="Math-NaN Mean.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-NaN Mean.vi"/>
 			<Item Name="Math-Subtract Mean.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Subtract Mean.vi"/>
 			<Item Name="Math-Truncated Exponential RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Truncated Exponential RNG.vi"/>
