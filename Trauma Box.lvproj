@@ -426,6 +426,7 @@
 			<Item Name="Cluster Array Variant to Cluster Variant Array.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/KTable/Cluster Array Variant to Cluster Variant Array.vi"/>
 			<Item Name="Cluster Variant Array to Table Items.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/KTable/Cluster Variant Array to Table Items.vi"/>
 			<Item Name="CommonSig-Create Gate.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Create Gate.vi"/>
+			<Item Name="CommonSig-Ramp Down (1D).vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Ramp Down (1D).vi"/>
 			<Item Name="CommonSig-Sin2 Ramp.vi" Type="VI" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Common/CommonSig-Sin2 Ramp.vi"/>
 			<Item Name="Config File Path.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/Config File Path.vi"/>
 			<Item Name="Config-Read Key (DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key (DBL).vi"/>
@@ -549,6 +550,7 @@
 			<Item Name="PXI-Zero 16-bit Outputs (by device).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Zero 16-bit Outputs (by device).vi"/>
 			<Item Name="Range.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Range.vi"/>
 			<Item Name="Read Anything (from variant).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Read Anything (from variant).vi"/>
+			<Item Name="Read Anything (malleable).vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Read Anything (malleable).vim"/>
 			<Item Name="Read Anything.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Read Anything.vi"/>
 			<Item Name="Read Strings from File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Read Strings from File.vi"/>
 			<Item Name="Read Write Options Cluster.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Read Write Options Cluster.ctl"/>
@@ -572,6 +574,10 @@
 			<Item Name="SlackAPI-oauth.v2.access response.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Slack VIs/API VIs/SlackAPI-oauth.v2.access response.ctl"/>
 			<Item Name="SlackAPI-oauth.v2.access.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Slack VIs/API VIs/SlackAPI-oauth.v2.access.vi"/>
 			<Item Name="SlackAPI-users.info.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Slack VIs/API VIs/SlackAPI-users.info.vi"/>
+			<Item Name="Sort and Index (DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Sort and Index (DBL).vi"/>
+			<Item Name="Sort and Index (I32).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Sort and Index (I32).vi"/>
+			<Item Name="Sort and Index (polymorphic).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Sort and Index (polymorphic).vi"/>
+			<Item Name="Sort and Index (string).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Sort and Index (string).vi"/>
 			<Item Name="Suppress Error Code - Array.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Suppress Error Code - Array.vi"/>
 			<Item Name="Suppress Error Code - Scalar.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Suppress Error Code - Scalar.vi"/>
 			<Item Name="Suppress Error Code.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Suppress Error Code.vi"/>
