@@ -1,6 +1,6 @@
 ## Changelog
 
-### v1.7 (Unreleased)
+### v1.7
 
 #### Added
 - made periodogram option explicit, added cross-spectrum power method option
