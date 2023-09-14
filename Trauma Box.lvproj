@@ -118,6 +118,7 @@
 				<Item Name="DAQmx Create Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/task.llb/DAQmx Create Task.vi"/>
 				<Item Name="DAQmx Create Virtual Channel.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Virtual Channel.vi"/>
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
+				<Item Name="DAQmx Is Task Done.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Is Task Done.vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL NChan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan 1Samp).vi"/>
@@ -443,13 +444,17 @@
 			<Item Name="Config-Read Key (DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Configuration File Wrapper VIs/Config-Read Key (DBL).vi"/>
 			<Item Name="Create Directory Chain.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Create Directory Chain.vi"/>
 			<Item Name="Create Prism Color Map.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Create Prism Color Map.vi"/>
+			<Item Name="CTR-Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Typedefs/CTR-Action.ctl"/>
+			<Item Name="CTR-Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Typedefs/CTR-Config.ctl"/>
+			<Item Name="CTR-Engine.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/CTR-Engine.vi"/>
+			<Item Name="CTR-Initialize.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Sub VIs/CTR-Initialize.vi"/>
+			<Item Name="CTR-Task Specification.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Counter/Typedefs/CTR-Task Specification.ctl"/>
 			<Item Name="CumSum.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/CumSum.vi"/>
 			<Item Name="DAQ-Abort FGV.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/DAQ-Abort FGV.vi"/>
 			<Item Name="DAQ-Sync and Start.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/DAQ-Sync and Start.vi"/>
 			<Item Name="dB, degrees to Z.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/dB, degrees to Z.vi"/>
 			<Item Name="Default Config File Path.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/System Info VIs/Default Config File Path.vi"/>
 			<Item Name="DI-Output Spec.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AIDI/Typedefs/DI-Output Spec.ctl"/>
-			<Item Name="Divide By 1000.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Divide By 1000.vi"/>
 			<Item Name="DO-Output Spec.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/DO-Output Spec.ctl"/>
 			<Item Name="Enable or Gray Out.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Controls/Enable or Gray Out.vi"/>
 			<Item Name="Error Description.ctl" Type="VI" URL="../../epl-vi-lib/Utility VIs/Error Handling VIs/Error Description.ctl"/>
@@ -486,10 +491,6 @@
 			<Item Name="Graphics-Y Marker Text (intensity graph).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Y Marker Text (intensity graph).vi"/>
 			<Item Name="Graphics-Y Marker Text (XY graph).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Graphics VIs/Graphics-Y Marker Text (XY graph).vi"/>
 			<Item Name="Insert Reserved Error.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Insert Reserved Error.vi"/>
-			<Item Name="interp1 (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1 (1D).vi"/>
-			<Item Name="interp1 (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1 (2D).vi"/>
-			<Item Name="Interp1 (poly).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Interp1 (poly).vi"/>
-			<Item Name="interp1.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/interp1.vi"/>
 			<Item Name="InvFilt-Params.ctl" Type="VI" URL="../../epl-cal-vi-lib/Inverse Filter VIs/InvFilt-Params.ctl"/>
 			<Item Name="Irregular Array Subset (DBL).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Array Manipulation VIs/Irregular Array Subset (DBL).vi"/>
 			<Item Name="isDir.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Comparison VIs/isDir.vi"/>
@@ -524,13 +525,16 @@
 			<Item Name="Math-dB To Linear.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-dB To Linear.vim"/>
 			<Item Name="Math-Discrete Truncated Exponential RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Discrete Truncated Exponential RNG.vi"/>
 			<Item Name="Math-Discrete Truncated Gaussian RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Discrete Truncated Gaussian RNG.vi"/>
+			<Item Name="Math-Divide By 1000.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Divide By 1000.vim"/>
 			<Item Name="Math-FFTinv dB,degrees to x(t).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-FFTinv dB,degrees to x(t).vi"/>
+			<Item Name="Math-Interp1.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Interp1.vim"/>
 			<Item Name="Math-Linear to dB.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Linear to dB.vim"/>
 			<Item Name="Math-NaN Mean.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-NaN Mean.vi"/>
 			<Item Name="Math-Subtract Mean.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Subtract Mean.vi"/>
 			<Item Name="Math-Truncated Exponential RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Truncated Exponential RNG.vi"/>
 			<Item Name="Math-Truncated Gaussian RNG.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Truncated Gaussian RNG.vi"/>
 			<Item Name="Math-Uniform Random Number (I32, 1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-Uniform Random Number (I32, 1D).vi"/>
+			<Item Name="Math-X1000.vim" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Math-X1000.vim"/>
 			<Item Name="MinSec String.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Text VIs/MinSec String.vi"/>
 			<Item Name="Moving Ripple Noise.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/Moving Ripple Noise/Moving Ripple Noise.lvclass"/>
 			<Item Name="nearest multiple.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/nearest multiple.vi"/>
@@ -551,6 +555,7 @@
 			<Item Name="PXI-Enumerate AI Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate AI Channels.vi"/>
 			<Item Name="PXI-Enumerate AO Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate AO Channels.vi"/>
 			<Item Name="PXI-Find 1st 16-bit Board.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Find 1st 16-bit Board.vi"/>
+			<Item Name="PXI-Find Counter Device.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Find Counter Device.vi"/>
 			<Item Name="PXI-Get Delays.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Delays.vi"/>
 			<Item Name="PXI-Get Input Terminal Configuration.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Input Terminal Configuration.vi"/>
 			<Item Name="PXI-Get Slot Number.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Get Slot Number.vi"/>
@@ -621,7 +626,6 @@
 			<Item Name="Waveform.lvclass" Type="LVClass" URL="../../epl-vi-lib/Signal Synthesis VIs/4th Generation/Classes/Waveforms/Waveform/Waveform.lvclass"/>
 			<Item Name="Write Anything.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/Write Anything.vi"/>
 			<Item Name="Write Strings to File.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/File IO VIs/Read Write Anything/SubVIs/Write Strings to File.vi"/>
-			<Item Name="X1000.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/X1000.vi"/>
 			<Item Name="Z to dB, degrees (1D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Z to dB, degrees (1D).vi"/>
 			<Item Name="Z to dB, degrees (2D).vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Z to dB, degrees (2D).vi"/>
 			<Item Name="Z to dB, degrees.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Z to dB, degrees.vi"/>
