@@ -1,4 +1,4 @@
-# Trauma Box
+# Exposure Box
 
 [Changelog](CHANGELOG.md)
 
