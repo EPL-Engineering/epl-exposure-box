@@ -8,5 +8,5 @@
 - [EPL VI Library v1.3.1](https://github.com/keh38/epl-vi-lib/releases/tag/v1.3.1)
 
 ### Install locations to edit source code
-- Source code must be installed in the same folder as the [EPL VI Library](../../../epl-vi-lib), e.g. `C:\Development\epl-exposure-box` and `C:\Development\epl-vi-lib`
+- Source code must be installed in the same folder as the [EPL VI Library](https://github.com/keh38/epl-vi-lib), e.g. `C:\Development\epl-exposure-box` and `C:\Development\epl-vi-lib`
 - The library *must* be named `epl-vi-lib` to avoid breaking the dependencies in the exposure box source code
