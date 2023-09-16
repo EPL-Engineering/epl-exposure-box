@@ -631,14 +631,14 @@
 			<Item Name="Z to dB, degrees.vi" Type="VI" URL="../../epl-vi-lib/Utility VIs/Math VIs/Z to dB, degrees.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Trauma Box" Type="EXE">
+			<Item Name="Exposure Box" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{0ACAE82A-B6ED-4058-9E0C-75C8010B7C36}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{D535626F-043E-459C-A535-93E35F9E495E}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{5FE3CC7C-492C-4EFD-854C-4EB65475CD7D}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Trauma Box</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Exposure Box</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -646,8 +646,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EC986EAD-8BF3-4D95-83CB-60AA4C908D83}</Property>
-				<Property Name="Destination[0].destName" Type="Str">TraumaBoxController.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Build/TraumaBoxController.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">ExposureBox.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Build/ExposureBox.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -655,23 +655,24 @@
 				<Property Name="Destination[1].path" Type="Path">../Build</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D7D5040F-A41B-4B4D-8D32-842810099F3F}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/LV Source/Images/Sound.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BFEBC071-C351-49C8-822E-1E3242935981}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Source/Trauma Box Controller.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LV Source/Images/Sound.ico</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LV Source/Images/Sound.ico</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LV Source/Exposure Box.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Mass Eye &amp; Ear</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Trauma Box</Property>
-				<Property Name="TgtF_internalName" Type="Str">Trauma Box</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Exposure Box</Property>
+				<Property Name="TgtF_internalName" Type="Str">Exposure Box</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Mass Eye &amp; Ear</Property>
-				<Property Name="TgtF_productName" Type="Str">Trauma Box</Property>
+				<Property Name="TgtF_productName" Type="Str">Exposure Box</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{ED575E2C-CBA6-49BB-8BE2-6125E1CB152B}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">TraumaBoxController.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ExposureBox.exe</Property>
 			</Item>
 		</Item>
 	</Item>

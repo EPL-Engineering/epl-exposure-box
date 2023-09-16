@@ -24,7 +24,7 @@ Source: "..\Build\*.*"; DestDir: "{app}"; Flags: replacesameversion
 Source: "D:\Development\epl-vi-lib\Utility VIs\Error Handling VIs\epl-vi-lib-errors.ini"; DestDir: "{app}"; Flags: replacesameversion
 
 [Icons]
-Name: "{commondesktop}\Exposure Box"; Filename: "{app}\TraumaBoxController.exe"; IconFilename: "{app}\Sound.ico"; IconIndex: 0; Check: not IsTestVersion('{#semver}')
+Name: "{commondesktop}\Exposure Box"; Filename: "{app}\ExposureBox.exe"; IconFilename: "{app}\Sound.ico"; IconIndex: 0; Check: not IsTestVersion('{#semver}')
 Name: "{commondesktop}\exposure {code:GetVersionFolder|{#semver}}"; Filename: "{app}\TraumaBoxController.exe"; Check: IsTestVersion('{#semver}')
 
 [Code]

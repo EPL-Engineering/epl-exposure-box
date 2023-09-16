@@ -1,5 +1,15 @@
 ## Changelog
 
+### unreleased
+
+#### Added
+- separate attenuation factor for exposure phase (for low-intensity exposures)
+
+#### Changed
+- completed name change to "Exposure Box"
+
+---
+
 ### v1.7 (2023-09-11)
 
 #### Added
