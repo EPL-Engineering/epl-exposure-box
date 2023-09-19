@@ -4,13 +4,13 @@
 #define verStr_ StringChange(semver, '.', '-')
 
 [Setup]
-AppName=Trauma Box Controller
-AppVerName=Trauma Box V{#semver}
-DefaultDirName={pf}\EPL\Trauma Box\V{code:GetVersionFolder|{#semver}}
+AppName=Exposure Box
+AppVerName=Exposure Box V{#semver}
+DefaultDirName={pf}\EPL\Exposure Box\V{code:GetVersionFolder|{#semver}}
 OutputDir=.\Output
 DefaultGroupName=EPL
 AllowNoIcons=yes
-OutputBaseFilename=Trauma_Box_{#verStr_}
+OutputBaseFilename=Exposure_Box_{#verStr_}
 UsePreviousAppDir=no
 UsePreviousGroup=no
 DisableReadyPage=yes
@@ -25,7 +25,7 @@ Source: "D:\Development\epl-vi-lib\Utility VIs\Error Handling VIs\epl-vi-lib-err
 
 [Icons]
 Name: "{commondesktop}\Exposure Box"; Filename: "{app}\ExposureBox.exe"; IconFilename: "{app}\Sound.ico"; IconIndex: 0; Check: not IsTestVersion('{#semver}')
-Name: "{commondesktop}\exposure {code:GetVersionFolder|{#semver}}"; Filename: "{app}\TraumaBoxController.exe"; Check: IsTestVersion('{#semver}')
+Name: "{commondesktop}\exposure {code:GetVersionFolder|{#semver}}"; Filename: "{app}\ExposureBox.exe"; Check: IsTestVersion('{#semver}')
 
 [Code]
 function IsTestVersion(Param : String): Boolean;
