@@ -1,6 +1,6 @@
 ## Changelog
 
-### unreleased
+### v1.8 (2023-09-19)
 
 #### Added
 - separate attenuation factor for exposure phase (for low-intensity exposures)
