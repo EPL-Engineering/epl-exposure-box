@@ -3,6 +3,7 @@
 ### unreleased
 #### Fixed
 - works on 4461 (fixed task sync error in epl-vi-lib)
+- properly trap voltage overrange error
 
 ---
 
