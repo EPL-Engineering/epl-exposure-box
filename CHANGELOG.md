@@ -1,5 +1,11 @@
 ## Changelog
 
+### unreleased
+#### Fixed
+- works on 4461 (fixed task sync error in epl-vi-lib)
+
+---
+
 ### v1.8 (2023-09-19)
 
 #### Added
