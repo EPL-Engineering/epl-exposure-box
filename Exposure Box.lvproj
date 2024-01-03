@@ -386,7 +386,6 @@
 			<Item Name="AODO-Action.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-Action.ctl"/>
 			<Item Name="AODO-Clear Tasks.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Clear Tasks.vi"/>
 			<Item Name="AODO-Config.ctl" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Typedefs/AODO-Config.ctl"/>
-			<Item Name="AODO-Configure AO.vim" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Wrapper VIs/AODO-Configure AO.vim"/>
 			<Item Name="AODO-Create Channels (AO).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Create Channels (AO).vi"/>
 			<Item Name="AODO-Create Tasks (AO).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Create Tasks (AO).vi"/>
 			<Item Name="AODO-Create Tasks (DO).vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/AODO/Sub VIs/AODO-Create Tasks (DO).vi"/>
@@ -544,6 +543,7 @@
 			<Item Name="PXI-Connections File Path.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Connections File Path.vi"/>
 			<Item Name="PXI-Enumerate AI Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate AI Channels.vi"/>
 			<Item Name="PXI-Enumerate AO Channels.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate AO Channels.vi"/>
+			<Item Name="PXI-Enumerate Buffered DIO Lines.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/Top Level VIs/PXI-Enumerate Buffered DIO Lines.vi"/>
 			<Item Name="PXI-Find 1st 16-bit Board.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Find 1st 16-bit Board.vi"/>
 			<Item Name="PXI-Find Counter Device.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Find Counter Device.vi"/>
 			<Item Name="PXI-Get Delays.vi" Type="VI" URL="../../epl-vi-lib/PXI DAQ VIs/DAQ Engine VIs/PXI-Get Delays.vi"/>
