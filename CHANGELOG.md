@@ -1,6 +1,8 @@
 ## Changelog
 
-### unreleased
+### v1.9 (2024-01-03)
+#### Added
+- digital output (e.g.: for syncing to imaging)
 #### Fixed
 - works on 4461 (fixed task sync error in epl-vi-lib)
 - properly trap voltage overrange error
