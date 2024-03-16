@@ -1,5 +1,11 @@
 ## Changelog
 
+### v1.10 (2024-03-15)
+#### Added
+- menu option to continue exposure, skipping amplifier adjustment step
+
+---
+
 ### v1.9 (2024-01-03)
 #### Added
 - digital output (e.g.: for syncing to imaging)
