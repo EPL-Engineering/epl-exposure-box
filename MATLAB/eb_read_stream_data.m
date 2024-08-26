@@ -15,7 +15,7 @@ Y = repmat(NaN(H.recordSize), numRecords, 1); %#ok<REPMAT>
 
 ifilt = 1:H.recordSize(1);
 for k = 1:numRecords
-   Y(ifilt, :) = read_prepended_2d_array(fp, 'float');
+   Y(ifilt, :) = klib.file.read_prepended_2d_array(fp, 'float');
    ifilt = ifilt + H.recordSize(1);
 end
 

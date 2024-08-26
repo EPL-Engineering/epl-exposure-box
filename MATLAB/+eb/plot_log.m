@@ -1,4 +1,4 @@
-function eb_plot_log(fn)
+function plot_log(fn)
 
 t = readtable(fn);
 
